@@ -62,7 +62,7 @@ while IsRunnning:
     Screen.blit(XText, (10, 10))
     Screen.blit(YText, (10, 40))
 
-    pygame.display.update()
+    pygame.display.update() #Update screen
 
 pygame.quit()
 
